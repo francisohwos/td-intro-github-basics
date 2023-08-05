@@ -15,4 +15,8 @@ What is the process of commiting a project to a git repository?
     after creating the repository, 
     you go into the terminal section of your local machine,
     run the code { git init,} this will create a local git repository on your local device for the project.
-    Then run the code { git add .} this will add all the files in your project to the git repository that has been created  
+    Then run the code { git add .} this will add all the files in your project to the git repository that has been created on your local device.
+    after that you run the code { git commit -m "my github project"} this will save all the changes that has been made to your project to your local git repository.
+    after that you create a branch by running the code { git branch -M main }
+    Link your local repository to the one you created on github websit by running this code { git remote add origin https://github.com/[username on git site]/[git repository name].git}
+    and finally run the { git push -u origin main} command to push everything in your local repository to your github online repository also known as the remote repository.
